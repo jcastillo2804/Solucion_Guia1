@@ -9,9 +9,9 @@ public class Caso15 {
 		Scanner sc = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("#.00");
 		
-		System.out.print("Ingrese cantidad........: ");
+		System.out.print("Ingrese cantidad.........: ");
 		int cantidad = sc.nextInt();
-		System.out.print("Ingrese precio..........: ");
+		System.out.print("Ingrese precio en soles..: ");
 		float precio = sc.nextFloat();
 		
 		float importe1 = cantidad * precio;
